@@ -40,6 +40,44 @@ def get_proxy():
 ```
 可直接访问 `http://IP:port` 查看图文教程
 
+## 项目结构 
+```shell
+├── FreeProxyPool
+│   ├── api.py
+│   ├── clear.py
+│   ├── crawler.py
+│   ├── db.py
+│   ├── error.py
+│   ├── getter.py
+│   ├── __init__.py
+│   ├── log
+│   │   └── db_log.log
+│   ├── __pycache__
+│   │   ├── api.cpython-37.pyc
+│   │   ├── clear.cpython-37.pyc
+│   │   ├── crawler.cpython-37.pyc
+│   │   ├── db.cpython-37.pyc
+│   │   ├── error.cpython-37.pyc
+│   │   ├── getter.cpython-37.pyc
+│   │   ├── __init__.cpython-37.pyc
+│   │   ├── scheduler.cpython-37.pyc
+│   │   ├── setting.cpython-37.pyc
+│   │   ├── tester.cpython-37.pyc
+│   │   └── utils.cpython-37.pyc
+│   ├── scheduler.py
+│   ├── setting.py
+│   ├── static
+│   │   └── images
+│   │       ├── getIP.jpg
+│   │       └── IPcount.jpg
+│   ├── templates
+│   │   └── index.html
+│   ├── tester.py
+│   └── utils.py
+└── run.py
+```
+
+
 ## 调试
 具体配置参数在 `setting.py`文件内
 ```python
